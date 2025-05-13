@@ -1,0 +1,14 @@
+.wip-container {
+    text-align: center;
+    padding: 4rem 1rem;
+    color: #666;
+  }
+  .wip-container h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  .wip-container p {
+    font-size: 1.2rem;
+    font-style: italic;
+  }
+  
