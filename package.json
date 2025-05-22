@@ -6,7 +6,8 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "deploy": "ng build --configuration production --base-href 'https://sajid-sj7.github.io/angular19/' && npx angular-cli-ghpages --dir=dist/parking-management-system/browser"
   },
   "private": true,
   "dependencies": {
